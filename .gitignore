@@ -1,0 +1,7 @@
+﻿node_modules
+dist
+.vercel
+# local backup of the old dark design
+archive/
+
+.env*

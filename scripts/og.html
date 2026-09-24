@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; }
+  .og {
+    width: 1200px; height: 630px; position: relative; overflow: hidden; background: #f6f5f1;
+    font-family: "Work Sans", sans-serif; color: #15171f;
+  }
+  .orb { position: absolute; border-radius: 50%; filter: blur(70px); }
+  .a { width: 560px; height: 560px; left: -120px; top: -160px; background: rgba(46, 75, 255, 0.3); }
+  .b { width: 520px; height: 520px; right: -120px; top: -120px; background: rgba(255, 138, 92, 0.45); }
+  .c { width: 460px; height: 460px; left: 420px; bottom: -260px; background: rgba(127, 220, 182, 0.55); }
+  .d { width: 380px; height: 380px; right: 80px; bottom: -200px; background: rgba(255, 214, 107, 0.6); }
+  .inner { position: absolute; inset: 0; padding: 72px 80px; display: flex; flex-direction: column; }
+  .chip {
+    align-self: flex-start; display: flex; align-items: center; gap: 12px; padding: 10px 20px 10px 16px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.75); border: 1px solid rgba(21, 23, 31, 0.1); font-size: 22px;
+  }
+  .dot { width: 12px; height: 12px; border-radius: 50%; background: #1fb87a; }
+  h1 { margin: 44px 0 0; font-family: "Outfit", sans-serif; font-weight: 600; font-size: 96px; letter-spacing: -0.045em; line-height: 0.98; }
+  h1 span { color: #2e4bff; }
+  p { margin: 26px 0 0; font-size: 32px; color: #585e6c; }
+  .foot { margin-top: auto; display: flex; gap: 14px; }
+  .tag { font-family: "Outfit", sans-serif; font-weight: 500; font-size: 22px; padding: 10px 20px; border-radius: 999px; }
+  .t1 { background: #ffe4d8; } .t2 { background: #d9f4e8; } .t3 { background: #dfe5ff; } .t4 { background: #fff0c2; }
+</style>
+</head>
+<body>
+  <div class="og">
+    <div class="orb a"></div><div class="orb b"></div><div class="orb c"></div><div class="orb d"></div>
+    <div class="inner">
+      <div class="chip"><span class="dot"></span>Open to internships &amp; full-time roles</div>
+      <h1><span>Surya Prajyesh Eatha</span><br />I build data systems<br />that run themselves.</h1>
+      <div class="foot">
+        <span class="tag t1">Pit Wall</span><span class="tag t2">Job Alerts</span><span class="tag t3">OwlPost</span><span class="tag t4">BRAIN Hub</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
